@@ -1,0 +1,167 @@
+{
+  "title": "TOEIC Mock Test - Pattern 2 (Mini 10)",
+  "version": "1.0.0",
+  "language": "en",
+  "explanationsLanguage": "ja",
+  "createdAt": "2025-11-01",
+  "parts": [
+    {
+      "part": 1,
+      "name": "Photographs",
+      "instructions": "Choose the statement that best describes the picture.",
+      "questions": [
+        {
+          "id": "Mini-P1-Q1",
+          "context": {
+            "imageDescription": "Two cyclists are riding along a riverside path under a bridge."
+          },
+          "stem": "What is true about the picture?",
+          "options": [
+            "A. The cyclists are walking their bikes.",
+            "B. The cyclists are riding beside a river.",
+            "C. The cyclists are fixing a flat tire.",
+            "D. The cyclists are carrying umbrellas."
+          ],
+          "answer": "B",
+          "explanationJa": "川沿いを走っている描写。Bが正解。"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "name": "Question-Response",
+      "instructions": "Listen to a question or statement and choose the best response.",
+      "questions": [
+        {
+          "id": "Mini-P2-Q1",
+          "context": {"audioTranscript": "How much does the software license cost?"},
+          "options": [
+            "A. It costs $49 per month.",
+            "B. It launches next week.",
+            "C. Please restart your computer."
+          ],
+          "answer": "A",
+          "explanationJa": "“いくら”の質問に価格で回答するAが自然。"
+        },
+        {
+          "id": "Mini-P2-Q2",
+          "context": {"audioTranscript": "Would you like me to book a taxi for you?"},
+          "options": [
+            "A. Yes, that would be great.",
+            "B. Around 7 kilometers.",
+            "C. On the second floor."
+          ],
+          "answer": "A",
+          "explanationJa": "申し出に対する受諾。Aが適切。"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "name": "Conversations",
+      "instructions": "Listen to the conversation and choose the best answer.",
+      "questions": [
+        {
+          "id": "Mini-P3-Q1",
+          "context": {
+            "conversation": [
+              {"speaker": "M", "text": "The conference room is booked all morning."},
+              {"speaker": "W", "text": "Then let's meet after lunch at my office."}
+            ],
+            "question": "When will they probably meet?"
+          },
+          "options": ["A. In the morning.", "B. At noon.", "C. In the afternoon.", "D. In the evening."],
+          "answer": "C",
+          "explanationJa": "“after lunch”=午後。Cが正解。"
+        },
+        {
+          "id": "Mini-P3-Q2",
+          "context": {
+            "conversation": [
+              {"speaker": "W", "text": "Do you know where the extra chairs are?"},
+              {"speaker": "M", "text": "Check the storage room next to the kitchen."}
+            ],
+            "question": "Where are the chairs most likely located?"
+          },
+          "options": [
+            "A. In the main hall.",
+            "B. In the storage room.",
+            "C. On the rooftop.",
+            "D. In the parking lot."
+          ],
+          "answer": "B",
+          "explanationJa": "“storage room next to the kitchen”と指示。Bが正解。"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "name": "Talks",
+      "instructions": "Listen to the talk and choose the best answer.",
+      "questions": [
+        {
+          "id": "Mini-P4-Q1",
+          "context": {
+            "talk": "Attention passengers: The 9:15 train to Kyoto will depart from platform 3 due to maintenance on platform 2.",
+            "question": "Which platform will the train depart from?"
+          },
+          "options": ["A. Platform 2.", "B. Platform 3.", "C. Platform 5.", "D. Platform 1."],
+          "answer": "B",
+          "explanationJa": "“depart from platform 3”と明示。Bが正解。"
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "name": "Incomplete Sentences",
+      "instructions": "Choose the word or phrase that best completes the sentence.",
+      "questions": [
+        {
+          "id": "Mini-P5-Q1",
+          "stem": "All new employees must \u3010_____\u3011 in the orientation session.",
+          "options": ["A. participate", "B. participation", "C. participant", "D. participating"],
+          "answer": "A",
+          "explanationJa": "“must + 動詞の原形”でparticipate。"
+        },
+        {
+          "id": "Mini-P5-Q2",
+          "stem": "The CEO will arrive \u3010_____\u3011 the office at around 10 a.m.",
+          "options": ["A. to", "B. at", "C. on", "D. in"],
+          "answer": "B",
+          "explanationJa": "到着先が特定の場所（office）なのでarrive at。"
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "name": "Reading Comprehension",
+      "instructions": "Read the passage and choose the best answer.",
+      "questions": [
+        {
+          "id": "Mini-P7-Q1",
+          "context": {"passage": "Notice: The cafeteria will serve a limited menu on Friday due to a staff shortage."},
+          "stem": "Why is the menu limited on Friday?",
+          "options": [
+            "A. Because of a holiday.",
+            "B. Because of a staff shortage.",
+            "C. Because of equipment upgrades.",
+            "D. Because of a private event."
+          ],
+          "answer": "B",
+          "explanationJa": "“staff shortage”のため。Bが正解。"
+        },
+        {
+          "id": "Mini-P7-Q2",
+          "context": {"passage": "Text: Thank you for choosing Green Taxi. Your driver, Masa, will arrive in 3 minutes. License: 12-45."},
+          "stem": "Approximately when will the driver arrive?",
+          "options": ["A. In 3 minutes.", "B. In 30 minutes.", "C. At 3 p.m.", "D. Tomorrow."],
+          "answer": "A",
+          "explanationJa": "“will arrive in 3 minutes”と記載。Aが正解。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "noteJa": "本データはTOEIC形式に準拠したオリジナルのミニ模試（10問）です。"
+  }
+}

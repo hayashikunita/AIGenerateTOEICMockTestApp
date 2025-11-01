@@ -1,0 +1,115 @@
+{
+  "title": "TOEIC Mock Test - Generated",
+  "version": "1.0.0",
+  "language": "en",
+  "explanationsLanguage": "ja",
+  "createdAt": "2025-11-01",
+  "parts": [
+    {
+      "part": 5,
+      "name": "Incomplete Sentences",
+      "instructions": "Choose the word or phrase that best completes the sentence.",
+      "questions": [
+        {
+          "id": "G-P5-Q1",
+          "stem": "Our sales have increased steadily, ______ our market share remains small.",
+          "options": [
+            "A. unless",
+            "B. although",
+            "C. so",
+            "D. because"
+          ],
+          "answer": "B",
+          "explanationJa": "対比なのでalthough。"
+        },
+        {
+          "id": "G-P5-Q2",
+          "stem": "Employees are encouraged to submit feedback ______ the online portal.",
+          "options": [
+            "A. across",
+            "B. under",
+            "C. among",
+            "D. through"
+          ],
+          "answer": "D",
+          "explanationJa": "“through the portal（ポータルを通じて）”。"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "name": "Text Completion",
+      "instructions": "Read the text and choose the best option to complete the blank.",
+      "questions": [
+        {
+          "id": "G-P6-Q1",
+          "context": {
+            "text": "Our company is 【_____】 a new line of eco-friendly packaging next quarter."
+          },
+          "options": [
+            "A. launch",
+            "B. to launch",
+            "C. launching",
+            "D. launched"
+          ],
+          "answer": "C",
+          "explanationJa": "is launching が自然。"
+        },
+        {
+          "id": "G-P6-Q2",
+          "context": {
+            "text": "We apologize for the delay in responding to your inquiry and appreciate your 【_____】."
+          },
+          "options": [
+            "A. patient",
+            "B. patients",
+            "C. patience",
+            "D. patiently"
+          ],
+          "answer": "C",
+          "explanationJa": "名詞 patience。"
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "name": "Reading Comprehension",
+      "instructions": "Read the passage and choose the best answer.",
+      "questions": [
+        {
+          "id": "G-P7-Q1",
+          "context": {
+            "passage": "Notice: The downtown library will close at 5 p.m. on Friday for a private event. Regular hours resume Saturday."
+          },
+          "stem": "What will happen on Friday evening?",
+          "options": [
+            "A. The library will extend its hours.",
+            "B. The library will open a new branch.",
+            "C. The library will host a private event.",
+            "D. The library will be under renovation."
+          ],
+          "answer": "C",
+          "explanationJa": "private event のために閉館。"
+        },
+        {
+          "id": "G-P7-Q2",
+          "context": {
+            "passage": "Email: Hi team, I've attached the draft agenda. Please send edits by Tuesday so we can finalize it. —Rina"
+          },
+          "stem": "What does Rina ask the team to do?",
+          "options": [
+            "A. Schedule a meeting.",
+            "B. Approve the budget.",
+            "C. Print the agenda.",
+            "D. Send edits by Tuesday."
+          ],
+          "answer": "D",
+          "explanationJa": "send edits by Tuesday を依頼。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "noteJa": "このデータはスクリプトで自動生成されたオリジナル問題です（TOEIC形式に準拠）。"
+  }
+}

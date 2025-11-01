@@ -1,0 +1,521 @@
+{
+  "title": "TOEIC Mock Test - Pattern 1",
+  "version": "1.0.0",
+  "language": "en",
+  "explanationsLanguage": "ja",
+  "createdAt": "2025-11-01",
+  "parts": [
+    {
+      "part": 1,
+      "name": "Photographs",
+      "instructions": "Listen and choose the statement that best describes the picture.",
+      "questions": [
+        {
+          "id": "P1-Q1",
+          "context": {
+            "imageDescription": "A woman is arranging flowers in small vases on a wooden counter inside a cafe."
+          },
+          "stem": "What is true about the picture?",
+          "options": [
+            "A. The woman is paying at the register.",
+            "B. The woman is arranging flowers.",
+            "C. The woman is closing the window.",
+            "D. The woman is serving customers."
+          ],
+          "answer": "B",
+          "explanationJa": "花を小さな花瓶に生けている描写。Bが最も合致。"
+        },
+        {
+          "id": "P1-Q2",
+          "context": {
+            "imageDescription": "A man is typing on a laptop at a tidy office desk with a cup of coffee beside him."
+          },
+          "stem": "What is true about the picture?",
+          "options": [
+            "A. The man is talking on the phone.",
+            "B. The man is typing on a laptop.",
+            "C. The man is drawing a chart.",
+            "D. The man is opening a window."
+          ],
+          "answer": "B",
+          "explanationJa": "男性はノートPCで入力している。Bが正解。"
+        },
+        {
+          "id": "P1-Q3",
+          "context": {
+            "imageDescription": "Vendors are displaying vegetables at an outdoor street market; a customer is examining tomatoes."
+          },
+          "stem": "What is true about the picture?",
+          "options": [
+            "A. The stalls are being closed.",
+            "B. A customer is examining produce.",
+            "C. People are sitting at a restaurant.",
+            "D. A truck is being loaded with boxes."
+          ],
+          "answer": "B",
+          "explanationJa": "屋外市場で客が野菜を手に取っている描写。Bが適切。"
+        },
+        {
+          "id": "P1-Q4",
+          "context": {
+            "imageDescription": "Passengers are lining up at an airport check-in counter with suitcases."
+          },
+          "stem": "What is true about the picture?",
+          "options": [
+            "A. The passengers are boarding the plane.",
+            "B. The passengers are checking in.",
+            "C. The passengers are taking seats in a theater.",
+            "D. The passengers are claiming luggage."
+          ],
+          "answer": "B",
+          "explanationJa": "空港のチェックインカウンターに並んでいる。Bが妥当。"
+        },
+        {
+          "id": "P1-Q5",
+          "context": {
+            "imageDescription": "Construction workers are wearing helmets and standing on scaffolding beside a building."
+          },
+          "stem": "What is true about the picture?",
+          "options": [
+            "A. Workers are seated at their desks.",
+            "B. Workers are standing on scaffolding.",
+            "C. Workers are unloading a ship.",
+            "D. Workers are painting a portrait."
+          ],
+          "answer": "B",
+          "explanationJa": "足場に立つ作業員の描写。Bが正解。"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "name": "Question-Response",
+      "instructions": "Listen to a question or statement and choose the best response.",
+      "questions": [
+        {
+          "id": "P2-Q1",
+          "context": {
+            "audioTranscript": "When is the budget meeting?"
+          },
+          "options": [
+            "A. On Thursday afternoon.",
+            "B. In the main conference room.",
+            "C. I haven't met him."
+          ],
+          "answer": "A",
+          "explanationJa": "“いつ”に対する回答として時刻/曜日が適切。Aが最も自然。Bは場所、Cは無関係。"
+        },
+        {
+          "id": "P2-Q2",
+          "context": {
+            "audioTranscript": "Could you send me the invoice today?"
+          },
+          "options": [
+            "A. Yes, I'll e-mail it by noon.",
+            "B. The printer is on the left.",
+            "C. No, I didn't see the noise."
+          ],
+          "answer": "A",
+          "explanationJa": "依頼に対する肯定応答が自然。Bは場所、Cは意味不明。"
+        },
+        {
+          "id": "P2-Q3",
+          "context": {
+            "audioTranscript": "Who will present the quarterly report?"
+          },
+          "options": [
+            "A. About 30 minutes.",
+            "B. Ms. Park from finance.",
+            "C. In the auditorium."
+          ],
+          "answer": "B",
+          "explanationJa": "“誰が”に対して人物で答えるBが適切。Aは時間、Cは場所。"
+        },
+        {
+          "id": "P2-Q4",
+          "context": {
+            "audioTranscript": "Do you mind if I open the window?"
+          },
+          "options": [
+            "A. Go ahead, please.",
+            "B. It's on the second floor.",
+            "C. Yes, we ordered two."
+          ],
+          "answer": "A",
+          "explanationJa": "許可を求める表現への自然な応答。Aが最適。"
+        },
+        {
+          "id": "P2-Q5",
+          "context": {
+            "audioTranscript": "Where did you put the signed contracts?"
+          },
+          "options": [
+            "A. By tomorrow morning.",
+            "B. On Mr. Lee's desk.",
+            "C. Because we needed them."
+          ],
+          "answer": "B",
+          "explanationJa": "“どこに”に対する場所の回答。Bが適切。Aは期限、Cは理由で不適切。"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "name": "Conversations",
+      "instructions": "Listen to a conversation and choose the best answer to the question.",
+      "questions": [
+        {
+          "id": "P3-Q1",
+          "context": {
+            "conversation": [
+              {"speaker": "W", "text": "The printer on the third floor is jammed again."},
+              {"speaker": "M", "text": "I'll call IT right away. We can't delay the reports."}
+            ],
+            "question": "What will the man probably do?"
+          },
+          "options": [
+            "A. Go out for lunch.",
+            "B. Call the IT department.",
+            "C. Buy more paper.",
+            "D. Cancel the meeting."
+          ],
+          "answer": "B",
+          "explanationJa": "男性が“call IT”と言及。Bが正解。"
+        },
+        {
+          "id": "P3-Q2",
+          "context": {
+            "conversation": [
+              {"speaker": "M", "text": "Did you receive the shipping confirmation?"},
+              {"speaker": "W", "text": "Not yet, but the supplier said it would be sent by 5 p.m."}
+            ],
+            "question": "What is the status of the shipping confirmation?"
+          },
+          "options": [
+            "A. It was delivered this morning.",
+            "B. It hasn't been received yet.",
+            "C. It was canceled by the supplier.",
+            "D. It needs to be printed."
+          ],
+          "answer": "B",
+          "explanationJa": "“Not yet”とあるので未受領。Bが妥当。"
+        },
+        {
+          "id": "P3-Q3",
+          "context": {
+            "conversation": [
+              {"speaker": "W", "text": "We should move the presentation to Tuesday."},
+              {"speaker": "M", "text": "Good idea. The clients will be back by then."}
+            ],
+            "question": "When will the presentation likely be held?"
+          },
+          "options": [
+            "A. Monday.",
+            "B. Tuesday.",
+            "C. Wednesday.",
+            "D. Friday."
+          ],
+          "answer": "B",
+          "explanationJa": "“move ... to Tuesday”よりBが正しい。"
+        },
+        {
+          "id": "P3-Q4",
+          "context": {
+            "conversation": [
+              {"speaker": "M", "text": "Do you want me to reserve a projector for the workshop?"},
+              {"speaker": "W", "text": "Yes, and please book a larger room as well."}
+            ],
+            "question": "What additional request does the woman make?"
+          },
+          "options": [
+            "A. To order lunch.",
+            "B. To book a larger room.",
+            "C. To invite more speakers.",
+            "D. To change the date."
+          ],
+          "answer": "B",
+          "explanationJa": "女性が“book a larger room”と依頼。Bが正解。"
+        },
+        {
+          "id": "P3-Q5",
+          "context": {
+            "conversation": [
+              {"speaker": "W", "text": "Your flight to Osaka has been delayed by one hour."},
+              {"speaker": "M", "text": "That's fine. Could you notify my driver?"}
+            ],
+            "question": "What does the man ask the woman to do?"
+          },
+          "options": [
+            "A. Change his seat.",
+            "B. Cancel his ticket.",
+            "C. Inform his driver.",
+            "D. Upgrade his class."
+          ],
+          "answer": "C",
+          "explanationJa": "男性が“notify my driver”と依頼。Cが正解。"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "name": "Talks",
+      "instructions": "Listen to a short talk and choose the best answer to the question.",
+      "questions": [
+        {
+          "id": "P4-Q1",
+          "context": {
+            "talk": "Welcome to the city museum. The gift shop is located near the exit on the first floor.",
+            "question": "Where is the gift shop located?"
+          },
+          "options": [
+            "A. On the second floor.",
+            "B. Near the exit on the first floor.",
+            "C. Next to the ticket counter.",
+            "D. Across from the cafe."
+          ],
+          "answer": "B",
+          "explanationJa": "“first floor ... near the exit”と明示。Bが正解。"
+        },
+        {
+          "id": "P4-Q2",
+          "context": {
+            "talk": "This is a reminder that the maintenance crew will inspect the elevators tomorrow between 9 and 11 a.m.",
+            "question": "What will happen tomorrow morning?"
+          },
+          "options": [
+            "A. A staff meeting will begin.",
+            "B. Elevators will be inspected.",
+            "C. A delivery will arrive.",
+            "D. The office will be closed."
+          ],
+          "answer": "B",
+          "explanationJa": "“inspect the elevators”とあるのでB。"
+        },
+        {
+          "id": "P4-Q3",
+          "context": {
+            "talk": "Our new smartphone features a longer-lasting battery and a brighter display.",
+            "question": "What is mentioned about the smartphone?"
+          },
+          "options": [
+            "A. It has a larger camera sensor.",
+            "B. Its battery lasts longer.",
+            "C. It is available in fewer colors.",
+            "D. It is heavier than before."
+          ],
+          "answer": "B",
+          "explanationJa": "“longer-lasting battery”に対応。Bが正解。"
+        },
+        {
+          "id": "P4-Q4",
+          "context": {
+            "talk": "Due to severe weather, the 6 p.m. ferry has been canceled. We apologize for the inconvenience.",
+            "question": "What is the announcement about?"
+          },
+          "options": [
+            "A. A schedule change.",
+            "B. A price increase.",
+            "C. A safety inspection.",
+            "D. A new route."
+          ],
+          "answer": "A",
+          "explanationJa": "悪天候で便がキャンセル＝スケジュール変更。Aが正解。"
+        },
+        {
+          "id": "P4-Q5",
+          "context": {
+            "talk": "Before we begin, please make sure your microphones are muted and cameras turned off to save bandwidth.",
+            "question": "What are listeners asked to do?"
+          },
+          "options": [
+            "A. Turn on their cameras.",
+            "B. Mute their microphones.",
+            "C. Share the screen.",
+            "D. Download the file."
+          ],
+          "answer": "B",
+          "explanationJa": "“microphones are muted”と指示。B。"
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "name": "Incomplete Sentences",
+      "instructions": "Choose the word or phrase that best completes the sentence.",
+      "questions": [
+        {
+          "id": "P5-Q1",
+          "stem": "The new software update will be available to all users ______ next week.",
+          "options": ["A. at", "B. until", "C. by", "D. during"],
+          "answer": "D",
+          "explanationJa": "“during next week”は英語として不自然に感じる学習者もいるが、期間中を表せる。より自然なのは“sometime next week/early next week”。ここでは文脈上“来週の間に”の意味でD。※実務では“starting next week”なども可。"
+        },
+        {
+          "id": "P5-Q2",
+          "stem": "Employees are encouraged to submit feedback ______ the online portal.",
+          "options": ["A. through", "B. among", "C. across", "D. under"],
+          "answer": "A",
+          "explanationJa": "“through the portal（ポータルを通じて）”が自然。"
+        },
+        {
+          "id": "P5-Q3",
+          "stem": "The manager approved the proposal after carefully ______ the costs.",
+          "options": ["A. evaluates", "B. evaluated", "C. evaluating", "D. evaluation"],
+          "answer": "C",
+          "explanationJa": "前置詞afterの後は動名詞/名詞句。意味的にも“after evaluating”。"
+        },
+        {
+          "id": "P5-Q4",
+          "stem": "Our sales have increased steadily, ______ our market share remains small.",
+          "options": ["A. because", "B. although", "C. unless", "D. so"],
+          "answer": "B",
+          "explanationJa": "対比（売上は伸びているが市場シェアは小さい）なのでalthough。"
+        },
+        {
+          "id": "P5-Q5",
+          "stem": "Ms. Chen will lead the project if Mr. Gomez is ______ to travel.",
+          "options": ["A. able", "B. available", "C. likely", "D. unable"],
+          "answer": "D",
+          "explanationJa": "“if Mr. Gomez is unable to travel（渡航できない場合）”が文意に合う。"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "name": "Text Completion",
+      "instructions": "Read the text and choose the best option to complete the blank.",
+      "questions": [
+        {
+          "id": "P6-Q1",
+          "context": {
+            "text": "To all staff: Please \u3010_____\u3011 your timesheets by Friday so payroll can be processed on time. Thank you."
+          },
+          "options": ["A. submit", "B. repair", "C. cancel", "D. extend"],
+          "answer": "A",
+          "explanationJa": "タイムシートは“submit（提出）”。"
+        },
+        {
+          "id": "P6-Q2",
+          "context": {
+            "text": "Dear Customer, Your order has been shipped and should arrive \u3010_____\u3011 three business days."
+          },
+          "options": ["A. at", "B. on", "C. within", "D. since"],
+          "answer": "C",
+          "explanationJa": "“within three business days（3営業日以内に）”。"
+        },
+        {
+          "id": "P6-Q3",
+          "context": {
+            "text": "Reminder: The parking lot will be closed for cleaning this weekend. Please \u3010_____\u3011 alternative arrangements."
+          },
+          "options": ["A. make", "B. made", "C. making", "D. to make"],
+          "answer": "A",
+          "explanationJa": "“make arrangements（手配する）”のコロケーション。"
+        },
+        {
+          "id": "P6-Q4",
+          "context": {
+            "text": "We apologize for the delay in responding to your inquiry and appreciate your \u3010_____\u3011."
+          },
+          "options": ["A. patient", "B. patience", "C. patiently", "D. patients"],
+          "answer": "B",
+          "explanationJa": "“appreciate your patience（ご辛抱に感謝）”。名詞が必要。"
+        },
+        {
+          "id": "P6-Q5",
+          "context": {
+            "text": "Our company is \u3010_____\u3011 a new line of eco-friendly packaging next quarter."
+          },
+          "options": ["A. launching", "B. launched", "C. to launch", "D. launch"],
+          "answer": "A",
+          "explanationJa": "進行予定を表す現在進行形の用法。“is launching”が自然。Cでも文脈により可だが、ここはAが最適。"
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "name": "Reading Comprehension",
+      "instructions": "Read the passage and choose the best answer.",
+      "questions": [
+        {
+          "id": "P7-Q1",
+          "context": {
+            "passage": "Notice: The downtown library will close at 5 p.m. on Friday for a private event. Regular hours resume Saturday."
+          },
+          "stem": "What will happen on Friday evening?",
+          "options": [
+            "A. The library will host a private event.",
+            "B. The library will extend its hours.",
+            "C. The library will open a new branch.",
+            "D. The library will be under renovation."
+          ],
+          "answer": "A",
+          "explanationJa": "“close at 5 p.m. for a private event”→私的イベント開催。A。"
+        },
+        {
+          "id": "P7-Q2",
+          "context": {
+            "passage": "Email: Hi team, I've attached the draft agenda. Please send edits by Tuesday so we can finalize it. —Rina"
+          },
+          "stem": "What does Rina ask the team to do?",
+          "options": [
+            "A. Approve the budget.",
+            "B. Send edits by Tuesday.",
+            "C. Print the agenda.",
+            "D. Schedule a meeting."
+          ],
+          "answer": "B",
+          "explanationJa": "“send edits by Tuesday”と依頼。Bが正解。"
+        },
+        {
+          "id": "P7-Q3",
+          "context": {
+            "passage": "Flyer: Join our 5K charity run on May 12. Registration includes a T-shirt and refreshments."
+          },
+          "stem": "What is included with registration?",
+          "options": [
+            "A. Transportation.",
+            "B. Accommodation.",
+            "C. A T-shirt and refreshments.",
+            "D. A training program."
+          ],
+          "answer": "C",
+          "explanationJa": "チラシ記載通り。Cが正解。"
+        },
+        {
+          "id": "P7-Q4",
+          "context": {
+            "passage": "Message: The elevator is out of service. Please use the stairs or the freight elevator located at the end of the hall."
+          },
+          "stem": "What are people advised to do?",
+          "options": [
+            "A. Wait until the elevator is repaired.",
+            "B. Use alternative ways to reach other floors.",
+            "C. Leave the building immediately.",
+            "D. Call maintenance staff."
+          ],
+          "answer": "B",
+          "explanationJa": "階段または貨物用エレベーターの利用を推奨。B。"
+        },
+        {
+          "id": "P7-Q5",
+          "context": {
+            "passage": "Review: The headphones deliver clear sound and are comfortable for long use, but the battery life could be better."
+          },
+          "stem": "What is one criticism mentioned in the review?",
+          "options": [
+            "A. The sound quality is poor.",
+            "B. The design is uncomfortable.",
+            "C. The battery life is not ideal.",
+            "D. The price is too high."
+          ],
+          "answer": "C",
+          "explanationJa": "電池持ちに対する不満が言及。Cが正解。"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "noteJa": "本データはETSの公式問題からの引用ではなく、TOEIC形式を参考にしたオリジナル問題です。"
+  }
+}
