@@ -1,5 +1,9 @@
 # AIgenerateTOEICMockTestApp
 
+<div>
+<video controls src="https://github.com/user-attachments/assets/5c10b448-3441-486f-b1ce-4c49fb58c79e" muted="false"></video>
+</div>
+
 TOEIC-style Reading practice (Parts 5–7), one original question at a time — built to make your practice shine. No copyrighted test content is included; all items are generated templates or LLM-produced under guidance.
 
 This repo now defaults to a Streamlit app (`streamlit_app.py`) with a Local generator and an optional OpenAI mode. The UI language is English throughout to support English-only practice and help your focus shine.
